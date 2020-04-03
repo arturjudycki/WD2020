@@ -1,0 +1,16 @@
+a = 10
+b = 2
+c = 8
+print('Wynik działania %(z1)d - %(z2)d = %(z3)d' % {'z1':a, 'z2':b, 'z3':c})
+a = 10
+b = 4.6
+c = 5.4
+print('Wynik działania %(z1)f - %(z2)f = %(z3)f' % {'z1':a, 'z2':b, 'z3':c})
+a = 'skladnik1'
+b = 'skladnik2'
+c = 'suma'
+print('Wynik działania %(z1)s + %(z2)s = %(z3)s' % {'z1':a, 'z2':b, 'z3':c})
+a = 0x2B
+b = 0x5A
+c = 133
+print('Wynik działania %(z1)r + %(z2)r = %(z3)r' % {'z1':a, 'z2':b, 'z3':c})

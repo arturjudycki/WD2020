@@ -1,0 +1,3 @@
+cyfry_rzymskie={1: 'I', 5: 'V', 10: 'X', 50: 'L' , 100: 'C', 500: 'D', 1000: 'M'}
+print(cyfry_rzymskie[5])
+print(cyfry_rzymskie[500])
